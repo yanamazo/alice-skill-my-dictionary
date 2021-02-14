@@ -9,10 +9,10 @@ application = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 sessionStorage = {}
 
-DICT_API_KEY = 'dict.1.1.20210210T180352Z.3fbbd7baaffd1c6a.17c72ea609461a7cec3d224ded1b3322a6d0c3ef'
+DICT_API_KEY = 'dict.1.1.2021...'
 DICT_URL = 'https://dictionary.yandex.net/api/v1/dicservice.json/lookup'
-GOOGLE_SHEET = 'https://api.sheety.co/e790bd7f5ce9e9a9d3db88626f317cc4/myWords/words'
-PASSWORD = 'foucault_2902'
+GOOGLE_SHEET = 'https://api.sheety.co/.../myWords/words'
+PASSWORD = '...'
 
 @application.route("/", methods=['POST'])
 
